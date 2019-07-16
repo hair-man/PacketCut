@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <stdint.h>
 
+#include <pcap.h>
+
 int main()
 {
 
