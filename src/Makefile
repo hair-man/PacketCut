@@ -13,7 +13,7 @@ all:$(TARGET)
 .c.o:
 	$(CC) -c $(CFLAGS) $< $(INC)
 $(TARGET):$(OBJS)
-	$(CC) -o $(TARGET) $(OBJS) $(INC) $(LIBS)
+	$(CC) -o $(TARGET) $(OBJS) $(INC) $(LIB)
 
 
 clean:
